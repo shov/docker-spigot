@@ -15,6 +15,9 @@ RUN apk upgrade --update && \
     apk add --update wget curl ca-certificates openssl bash git screen util-linux sudo shadow && \
     update-ca-certificates
 
+#libnss3.so
+RUN apk add --no-cache nss
+
 # Install Java8
 RUN apk add openjdk8-jre
 
