@@ -1,0 +1,40 @@
+#COPY IT TO .env
+
+#There will be worlds, plugins, configs, everything. The option is set it as ./data
+DATA_PATH=../data
+
+#Spigot Minecraft version, change it and restart with build to update
+REV=14.1
+
+#Minecraft external port
+MC_PORT=25565
+
+#Dynmap external port
+DYNMAP_PORT=8123
+
+#Project prefix for docker container name
+COMPOSE_PROJECT_NAME=DockerSpigot
+
+#ELUA
+EULA=TRUE
+
+#Operator
+OPS=
+
+#PVP mode
+PVP=false
+
+#Worldborder plugin install
+WORLDBORDER=true
+
+#Dynmap plugin install
+DYNMAP=true
+
+#Essentials plugin install
+ESSENTIALS=true
+
+#PermissionsEx plugin install
+PERMISSIONSEX=true
+
+#ClearLag plugin install
+CLEARLAG=true

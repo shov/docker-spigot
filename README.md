@@ -1,3 +1,9 @@
+TODO:
+* Remove ubuntu image, it doesn't works properly
+* Add .env to configure things well
+* Travis
+
+# -- Original README bellow --
 # Minecraft server SPIGOT
 
 [![Docker Automated build](https://img.shields.io/docker/automated/ashdev/minecraft-spigot.svg)](https://hub.docker.com/r/ashdev/minecraft-spigot)
