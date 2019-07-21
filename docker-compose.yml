@@ -13,7 +13,7 @@ services:
     - PERMISSIONSEX=${PERMISSIONSEX}
     - CLEARLAG=${CLEARLAG}
     volumes:
-    - ./data:/minecraft
+    - ${DATA_PATH}:/minecraft
     ports:
     - "25565:${MC_PORT}"
     - "8123:${DYNMAP_PORT}"
